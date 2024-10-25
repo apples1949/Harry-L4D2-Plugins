@@ -11,7 +11,7 @@ A spectator can now see the special infected model glows though the wall
 
 * Require | 必要安裝
     1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
-    2. Optional - [Attachments API](https://forums.alliedmods.net/showthread.php?t=325651)
+    2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
 
 * <details><summary>ConVar | 指令</summary>
 
@@ -55,11 +55,11 @@ A spectator can now see the special infected model glows though the wall
 
 * <details><summary>Related Plugin | 相關插件</summary>
 
-    1. [l4d_flashlight_speconly](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Spectator_%E6%97%81%E8%A7%80%E8%80%85/l4d_flashlight_speconly): Attaches an extra flashlight to spectators and dead survivors.
-        > 給死亡玩家或旁觀者手電筒，照亮地圖
+    1. [Attachments API](https://forums.alliedmods.net/showthread.php?t=325651): Allows plugins to attach things to weapons. Fixes player attachments when their model changes.
+        > 檢測玩家模組變更的API
 
-    2. [l4d_versus_specListener](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Spectator_%E6%97%81%E8%A7%80%E8%80%85/l4d_versus_specListener): Allows spectator listen others team voice and see others team chat for l4d
-        > 旁觀者可以透過聊天視窗看到倖存者和特感的隊伍對話，亦可透過音頻聽到隊伍談話
+    2. [l4d_flashlight_speconly](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Plugin_%E6%8F%92%E4%BB%B6/Spectator_%E6%97%81%E8%A7%80%E8%80%85/l4d_flashlight_speconly): Attaches an extra flashlight to spectators and dead survivors.
+        > 給死亡玩家或旁觀者手電筒，照亮地圖
 
     3. [HP Sprite](https://forums.alliedmods.net/showthread.php?p=2735149): Shows a sprite at the client head based on its HP
         > 頭上有血量提示，給旁觀者更好的觀賞性
@@ -72,6 +72,10 @@ A spectator can now see the special infected model glows though the wall
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v3.0 (2024-10-26)
+        * Idle player can not see the glow
+        * Fixed jockey glow disappear if survivor leaves the game during ridden
 
     * v2.9 (2024-3-19)
         * Require Attachments API
